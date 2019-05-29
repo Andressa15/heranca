@@ -1,0 +1,57 @@
+package orientacaoObjetos;
+
+public class Filme extends Pessoa{
+
+	public String genero;
+	public int duracao;
+	
+	list <String >atores
+	
+	
+	public Filme( String genero, int duracao) {
+		this.genero = genero;
+		this.duracao = duracao;
+		//atores
+		
+	}
+
+
+	public String getGenero() {
+		return genero;
+	}
+
+
+	public void setGenero(String genero) {
+		this.genero = genero;
+	}
+
+
+	public int getDuracao() {
+		return duracao;
+	}
+
+
+	public void setDuracao(int duracao) {
+		this.duracao = duracao;
+	//}
+
+
+	//public list<String> getAtores() {
+		return atores;
+	//}
+
+
+	//public void setAtores(list<String> atores) {
+		this.atores = atores;
+	}
+	
+	public String toString() {
+	
+	String modelo = "";
+	modelo += " Nome -> " + super.getNome() + " /n";
+	modelo += " categoria ->" +super.getCategoria() + "/n";
+	
+	
+	
+	
+}

@@ -1,0 +1,12 @@
+package orientacaoObjetos;
+
+public class PessoaJacaV {
+  
+	private String nome;
+	private String sobrenome;
+	int idade;
+	
+	
+	
+	
+}

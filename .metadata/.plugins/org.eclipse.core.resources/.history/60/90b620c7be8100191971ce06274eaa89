@@ -1,0 +1,10 @@
+package orientacaoObjetos;
+
+public class Teste {
+	//filme
+	Filme movie = new Filme (  )
+	// livro
+	Livro book = new Livro(   )
+	//musica
+   Musica music = new Musica(, banda, genero))
+}

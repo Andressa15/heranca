@@ -1,0 +1,5 @@
+package orientacaoObjetos;
+
+public class TesteDoTeste {
+Livro movie  = new Livro(nome, categoria, autor, paginas)
+}
