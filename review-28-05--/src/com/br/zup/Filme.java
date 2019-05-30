@@ -1,8 +1,5 @@
 package com.br.zup;
 
-import java.awt.List;
-import java.util.ArrayList;
-
 public class Filme extends Item{
 
 	public String genero;
@@ -41,10 +38,10 @@ public class Filme extends Item{
 	public String toString() {
 
 		String modelo = "";
-		modelo += " Nome -> " + super.getNome() + " /n";
-		modelo += " categoria ->" +super.getCategoria() + "/n";
-		modelo += " Genero_-> "+ this.getGenero()+ " /n";
-		modelo += " duração -> " + this.getDuracao()+ "/n";
+		modelo += " Nome -> " + super.getNome() + " \n";
+		modelo += " categoria ->" +super.getCategoria() + "\n";
+		modelo += " Genero_-> " + this.getGenero()+ " \n";
+		modelo += " duração -> " + this.getDuracao()+ "\n";
 	
 
 		return modelo;

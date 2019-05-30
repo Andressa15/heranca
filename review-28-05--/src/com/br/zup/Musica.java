@@ -39,11 +39,11 @@ public class Musica extends Item {
 	public String toString() {
 		String modelo = "";
 
-		modelo += " Nome -> " + super.getNome() + "/n";
-		modelo += " Categoria _-> " + super.getCategoria()+ "/n";
-		modelo += " Cantor ->"+ this.getCantor() + "/n";
-		modelo += " Banda -> "+ this.getBanda() + " /n";
-		modelo += " Genero -> "+ this.getGenero() + "/n";
+		modelo += " Nome -> " + super.getNome() + "\n";
+		modelo += " Categoria _-> " + super.getCategoria()+ "\n";
+		modelo += " Cantor ->"+ this.getCantor() + "\n";
+		modelo += " Banda -> "+ this.getBanda() + " \n";
+		modelo += " Genero -> "+ this.getGenero() + "\n";
 
 		return modelo;
 	}

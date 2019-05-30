@@ -31,10 +31,10 @@ public class Livro extends Item {
 
 		String modelo = "";
 
-		modelo += " Nome ->"+ super.getNome()+"/n";
-		modelo += " categoria->"+ super.getCategoria()+"/n";
-		modelo += " Autor _->"+ this.getAutor()+"/n";
-		modelo += " Paginas->"+this.getPaginas()+"/n";
+		modelo += " Nome ->" + super.getNome()+ "\n";
+		modelo += " categoria -> "+ super.getCategoria()+ "\n";
+		modelo += " Autor _->" + this.getAutor()+ "\n";
+		modelo += " Paginas->" +this.getPaginas()+ "\n";
 
 		return modelo;
 	}
